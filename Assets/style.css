@@ -5,7 +5,7 @@ body {
   border: black 18px;
 }
 
-textarea{
+.textarea{
   background: transparent;
   color:white;
   border-left: 1px solid black;

@@ -1,14 +1,13 @@
-//Right now variable
-var now = moment();
-//Date variable
-var actual = now.format("MM DD YYYY");
+//right now var
+const now = moment();
+//date var
+const actual = now.format("MM DD YYYY");
 //set date
 $("actualDay").text("Today's Date: " + actual);
 
 $(document).ready(function() {
     
-    // storage
-        arrayHour = $('.hour').toArray();
+         arrayHour = $('.hour').toArray();
         for (i = 0; i < arrayHour.length; i++) {
             $(arrayHour[i]).siblings('textarea').text(localStorage.getItem($(arrayHour[i]).attr('data-time')));
         }
