@@ -1,6 +1,6 @@
-//right now var
+//right now con
 const now = moment();
-//date var
+//date con
 const actual = now.format("MM DD YYYY");
 //set date
 $("actualDay").text("Today's Date: " + actual);
